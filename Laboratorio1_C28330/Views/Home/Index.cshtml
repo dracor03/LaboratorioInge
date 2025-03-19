@@ -1,8 +1,23 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "La primerisima vista vistoza vistal";
+    string autor = "Escriba su nombre";
+    int edad = 22;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<html>
+    <head>
+        <title> ViewBag.Title</title>
+    </head>
+
+    <body>
+        <div>
+            <h1> Hola hola modificando la modificación modificativa </h1>
+            <p> 
+                <strong> Yo me llamo: </strong> @autor <br/>
+                 Mi edad es: <input type ="number" value ="@edad" placer holder ="Deme su edad"/> 
+            </p>
+        </div>
+    </body>
+
+
+</html>
