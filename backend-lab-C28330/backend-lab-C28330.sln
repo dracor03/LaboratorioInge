@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35913.81 d17.13
+VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "backend-lab-C28330", "backend-lab-C28330\backend-lab-C28330.csproj", "{4FDC8460-57C9-46ED-A74A-770507114CF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UIAutomationTest", "UIAutomationTest\UIAutomationTest.csproj", "{1CF46E7E-8864-4282-9371-E8D18DCD8C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4FDC8460-57C9-46ED-A74A-770507114CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FDC8460-57C9-46ED-A74A-770507114CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FDC8460-57C9-46ED-A74A-770507114CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF46E7E-8864-4282-9371-E8D18DCD8C90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF46E7E-8864-4282-9371-E8D18DCD8C90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF46E7E-8864-4282-9371-E8D18DCD8C90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF46E7E-8864-4282-9371-E8D18DCD8C90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

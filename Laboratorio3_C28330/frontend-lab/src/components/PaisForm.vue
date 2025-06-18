@@ -74,6 +74,7 @@ export default{
                     idioma: this.datosFormulario.idioma,
                 })
                 .then(function (response) {
+                    alert("País guardado exitosamente");
                     console.log(response);
                     window.location.href = "/";
                 })
